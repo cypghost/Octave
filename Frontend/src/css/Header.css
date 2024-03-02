@@ -1,0 +1,22 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 332px;
+    height: 60px;
+    gap: 130px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.logo {
+    margin-top: 35px;
+    width: 90px;
+    height: 90px;
+}
+
+.user-avatar {
+    margin-top: 35px;
+    width: 40%;
+    height: 40px;
+    border-radius: 50%;
+}

@@ -1,0 +1,23 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 324px;
+    height: 350px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 295px;
+    height: 255px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.results.searching {
+    background-color: black;
+}

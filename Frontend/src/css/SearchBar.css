@@ -1,0 +1,21 @@
+input {
+    width: 280px;
+    height: 25px;
+    padding: 10px 20px;
+    margin: 15px 5px;
+    border: none;
+    background-color: #1B1B1D;
+    color: white;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 16px;
+    border-radius: 80px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #61dafb;
+}
+
+input::placeholder {
+    color: #555;
+}
